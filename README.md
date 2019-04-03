@@ -4,6 +4,8 @@ This projects goal is to run the Crazyflie 2.1 from Bitcraze on the programming 
 Using https://github.com/timbod7/rust-stm32f4-examples/blob/master/blinky-hal as reference
 
 # How to debug on Ubuntu 18.10
+The debug settings are borrowed from: https://github.com/rust-embedded/cortex-m-quickstart
+
 In a terminal run the following command:
 openocd -f openocd.cfg
 
