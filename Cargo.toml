@@ -1,0 +1,16 @@
+[package]
+name = "crusty_flie"
+version = "0.1.0"
+authors = ["maiso <michielaiso@hotmail.com>"]
+edition = "2018"
+build = "build.rs"
+#[dependencies]
+#crazy_flie = { path = "../crazy_flie" }
+
+[dependencies]
+#embedded-hal = "0.2.2"
+cortex-m-rt = "0.6.7"
+
+[dependencies.stm32f4]
+version = "0.6.0"
+features = ["stm32f405"]
